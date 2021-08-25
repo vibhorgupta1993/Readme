@@ -46,9 +46,9 @@ There are two folder
    We consider 5 tasks arriving sequentially with each sequential task containing a small amount of labeled training data (only 5% of training instances in case of DSADS and HAR).
    
    **Dataset_type - Daily_Sport, HAR:
-      
-      Daily_Sport - Daily and Sports Activities Data Set
-      HAR - Human Activity Recognition
+	 * Daily and Sports Activities Data Set (DSADs) - Classification task
+    * Human Activity Recognition (HAR) - Classification task
+	 
   **Percentage_masked_sensors_during_training (VID case) - 40%
 
 
