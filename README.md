@@ -34,9 +34,23 @@ There are two folder
 **Scenarios**
 (In case of Activity Recognition Datasets (DSADs and HAR) not in Turbofan)
     
-    Fixed Classes
-    Incrementally Increasing Classes
-    Partial Changing Classes
+    Fixed Classes (FC)
+    Incrementally Increasing Classes (ICC)
+    Partial Changing Classes (PCC)
+    
+**Activity Recognition**
+
+**Preprocessing**
+
+   For DSADS and HAR, we use z-normalize each input dimension using sensor-wise mean and standard deviation from the train set.
+   We consider 5 tasks arriving sequentially with each sequential task containing a small amount of labeled training data (only 5% of training instances in case of DSADS and HAR).
+   
+   **Dataset_type - Daily_Sport, HAR:
+      Daily_Sport - Daily and Sports Activities Data Set
+      HAR - Human Activity Recognition
+  **Percentage_masked_sensors_during_training (VID case) - 40%
+
+
 
 
 
